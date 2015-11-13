@@ -1,7 +1,7 @@
 /*
  * =====================================================================================
  *
- *       Filename:  conjecture.c
+ *       Filename:  source.c
  *
  *    Description:  famous conjecture, called the Goldbach conjecture,
  *                  says that every even integer n greater than 2 has 
@@ -18,11 +18,20 @@
  * =====================================================================================
  */
 
-#include "source.h"
-int main(int argc, char** argv) {
-    
-    conjecture();
-        
-    return 0;
-}
+#ifndef SOURSE_H
+#define SOURSE_H
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define START 700
+#define FINISH 1100
+
+
+int isPrime(int num, int div);
+int isGC(int n1, int n2);
+void conjecture();
+int conjRec(int i, int j);
+
+#endif /* SOURSE_H */
 
