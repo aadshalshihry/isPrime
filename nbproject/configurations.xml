@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>/Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/conjecture.c</itemPath>
       <itemPath>/Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/isPrimeOne.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -39,6 +40,11 @@
           <standard>3</standard>
         </cTool>
       </compileType>
+      <item path="/Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/conjecture.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="/Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/isPrimeOne.c"
             ex="false"
             tool="0"
@@ -66,6 +72,11 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="/Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/conjecture.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="/Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/isPrimeOne.c"
             ex="false"
             tool="0"

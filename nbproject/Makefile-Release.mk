@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/_ext/c4904bf1/conjecture.o \
 	${OBJECTDIR}/_ext/c4904bf1/isPrimeOne.o
 
 
@@ -61,6 +62,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/isprime: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/isprime ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/_ext/c4904bf1/conjecture.o: /Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/conjecture.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/c4904bf1
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/c4904bf1/conjecture.o /Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/conjecture.c
 
 ${OBJECTDIR}/_ext/c4904bf1/isPrimeOne.o: /Users/Roman/Dropbox/school/umassd_fall15/cis190/project/project2/problem2/isPrime/isPrimeOne.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/c4904bf1
